@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">ProjektniZadatak2AntonioBajlo</string>
+
+    <string name="labelaSifra">Šifra</string>
+    <string name="labelaImeAutomobila">Ime Automobila</string>
+    <string name="labelaVrstaAutomobila">Vrsta Atomobila</string>
+    <string name="labelaNatrag">Natrag</string>
+    <string name="labelaSlikaAutomobila">Slika Automobila</string>
+    <string name="labelaNovi">Napravi novi Automobil</string>
+    <string name="labelaIzmjeni">Izmjeni Automobil</string>
+    <string name="labelaObrisi">Obriši Automobil</string>
+    <string name="labelaSlikaj">Slikaj</string>
+    <string name="labelaGodina">Godište Automobila</string>
+    <string name="labelaOpis">Opis</string>
+    <string name="todo">TODO</string>
+</resources>

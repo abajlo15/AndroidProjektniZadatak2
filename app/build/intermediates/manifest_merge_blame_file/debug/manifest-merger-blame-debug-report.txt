@@ -1,0 +1,103 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="Automobili.Bajlo"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="22"
+8-->C:\Users\abajl\AndroidStudioProjects\ProjektniZadatak2AntonioBajlo\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->C:\Users\abajl\AndroidStudioProjects\ProjektniZadatak2AntonioBajlo\app\src\main\AndroidManifest.xml
+10
+11    <uses-feature
+11-->C:\Users\abajl\AndroidStudioProjects\ProjektniZadatak2AntonioBajlo\app\src\main\AndroidManifest.xml:5:5-6:35
+12        android:name="android.hardware.camera"
+12-->C:\Users\abajl\AndroidStudioProjects\ProjektniZadatak2AntonioBajlo\app\src\main\AndroidManifest.xml:5:19-57
+13        android:required="true" />
+13-->C:\Users\abajl\AndroidStudioProjects\ProjektniZadatak2AntonioBajlo\app\src\main\AndroidManifest.xml:6:9-32
+14
+15    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+15-->C:\Users\abajl\AndroidStudioProjects\ProjektniZadatak2AntonioBajlo\app\src\main\AndroidManifest.xml:8:5-80
+15-->C:\Users\abajl\AndroidStudioProjects\ProjektniZadatak2AntonioBajlo\app\src\main\AndroidManifest.xml:8:22-77
+16    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+16-->C:\Users\abajl\AndroidStudioProjects\ProjektniZadatak2AntonioBajlo\app\src\main\AndroidManifest.xml:9:5-81
+16-->C:\Users\abajl\AndroidStudioProjects\ProjektniZadatak2AntonioBajlo\app\src\main\AndroidManifest.xml:9:22-78
+17
+18    <application
+18-->C:\Users\abajl\AndroidStudioProjects\ProjektniZadatak2AntonioBajlo\app\src\main\AndroidManifest.xml:11:5-39:19
+19        android:allowBackup="true"
+19-->C:\Users\abajl\AndroidStudioProjects\ProjektniZadatak2AntonioBajlo\app\src\main\AndroidManifest.xml:12:9-35
+20        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+20-->[androidx.core:core:1.1.0] C:\Users\abajl\.gradle\caches\transforms-2\files-2.1\e9dab9c67c1ee3668e0bbf86c6d8cbd8\core-1.1.0\AndroidManifest.xml:24:18-86
+21        android:debuggable="true"
+22        android:icon="@mipmap/ic_launcher"
+22-->C:\Users\abajl\AndroidStudioProjects\ProjektniZadatak2AntonioBajlo\app\src\main\AndroidManifest.xml:13:9-43
+23        android:label="Automobili"
+23-->C:\Users\abajl\AndroidStudioProjects\ProjektniZadatak2AntonioBajlo\app\src\main\AndroidManifest.xml:14:9-35
+24        android:roundIcon="@mipmap/ic_launcher_round"
+24-->C:\Users\abajl\AndroidStudioProjects\ProjektniZadatak2AntonioBajlo\app\src\main\AndroidManifest.xml:15:9-54
+25        android:supportsRtl="true"
+25-->C:\Users\abajl\AndroidStudioProjects\ProjektniZadatak2AntonioBajlo\app\src\main\AndroidManifest.xml:16:9-35
+26        android:testOnly="true"
+27        android:theme="@style/AppTheme" >
+27-->C:\Users\abajl\AndroidStudioProjects\ProjektniZadatak2AntonioBajlo\app\src\main\AndroidManifest.xml:17:9-40
+28        <activity
+28-->C:\Users\abajl\AndroidStudioProjects\ProjektniZadatak2AntonioBajlo\app\src\main\AndroidManifest.xml:18:9-27:20
+29            android:name="com.abajlo.abajlo.view.MainActivity"
+29-->C:\Users\abajl\AndroidStudioProjects\ProjektniZadatak2AntonioBajlo\app\src\main\AndroidManifest.xml:19:13-46
+30            android:label="Automobili"
+30-->C:\Users\abajl\AndroidStudioProjects\ProjektniZadatak2AntonioBajlo\app\src\main\AndroidManifest.xml:20:13-39
+31            android:theme="@style/AppTheme.NoActionBar" >
+31-->C:\Users\abajl\AndroidStudioProjects\ProjektniZadatak2AntonioBajlo\app\src\main\AndroidManifest.xml:21:13-56
+32            <intent-filter>
+32-->C:\Users\abajl\AndroidStudioProjects\ProjektniZadatak2AntonioBajlo\app\src\main\AndroidManifest.xml:22:13-26:29
+33                <action android:name="android.intent.action.MAIN" />
+33-->C:\Users\abajl\AndroidStudioProjects\ProjektniZadatak2AntonioBajlo\app\src\main\AndroidManifest.xml:23:17-69
+33-->C:\Users\abajl\AndroidStudioProjects\ProjektniZadatak2AntonioBajlo\app\src\main\AndroidManifest.xml:23:25-66
+34
+35                <category android:name="android.intent.category.LAUNCHER" />
+35-->C:\Users\abajl\AndroidStudioProjects\ProjektniZadatak2AntonioBajlo\app\src\main\AndroidManifest.xml:25:17-77
+35-->C:\Users\abajl\AndroidStudioProjects\ProjektniZadatak2AntonioBajlo\app\src\main\AndroidManifest.xml:25:27-74
+36            </intent-filter>
+37        </activity>
+38
+39        <provider
+39-->C:\Users\abajl\AndroidStudioProjects\ProjektniZadatak2AntonioBajlo\app\src\main\AndroidManifest.xml:28:9-38:20
+40            android:name="androidx.core.content.FileProvider"
+40-->C:\Users\abajl\AndroidStudioProjects\ProjektniZadatak2AntonioBajlo\app\src\main\AndroidManifest.xml:29:13-62
+41            android:authorities="com.abajlo.provider"
+41-->C:\Users\abajl\AndroidStudioProjects\ProjektniZadatak2AntonioBajlo\app\src\main\AndroidManifest.xml:30:13-54
+42            android:exported="false"
+42-->C:\Users\abajl\AndroidStudioProjects\ProjektniZadatak2AntonioBajlo\app\src\main\AndroidManifest.xml:31:13-37
+43            android:grantUriPermissions="true" >
+43-->C:\Users\abajl\AndroidStudioProjects\ProjektniZadatak2AntonioBajlo\app\src\main\AndroidManifest.xml:32:13-47
+44            <meta-data
+44-->C:\Users\abajl\AndroidStudioProjects\ProjektniZadatak2AntonioBajlo\app\src\main\AndroidManifest.xml:33:13-37:25
+45                android:name="android.support.FILE_PROVIDER_PATHS"
+45-->C:\Users\abajl\AndroidStudioProjects\ProjektniZadatak2AntonioBajlo\app\src\main\AndroidManifest.xml:34:17-67
+46                android:resource="@xml/file_paths" >
+46-->C:\Users\abajl\AndroidStudioProjects\ProjektniZadatak2AntonioBajlo\app\src\main\AndroidManifest.xml:35:17-51
+47            </meta-data>
+48        </provider>
+49        <provider
+49-->[com.squareup.picasso:picasso:2.71828] C:\Users\abajl\.gradle\caches\transforms-2\files-2.1\fb70f9e9622522db1f382166bb03b70e\jetified-picasso-2.71828\AndroidManifest.xml:8:9-11:40
+50            android:name="com.squareup.picasso.PicassoProvider"
+50-->[com.squareup.picasso:picasso:2.71828] C:\Users\abajl\.gradle\caches\transforms-2\files-2.1\fb70f9e9622522db1f382166bb03b70e\jetified-picasso-2.71828\AndroidManifest.xml:9:13-64
+51            android:authorities="Automobili.Bajlo.com.squareup.picasso"
+51-->[com.squareup.picasso:picasso:2.71828] C:\Users\abajl\.gradle\caches\transforms-2\files-2.1\fb70f9e9622522db1f382166bb03b70e\jetified-picasso-2.71828\AndroidManifest.xml:10:13-72
+52            android:exported="false" />
+52-->[com.squareup.picasso:picasso:2.71828] C:\Users\abajl\.gradle\caches\transforms-2\files-2.1\fb70f9e9622522db1f382166bb03b70e\jetified-picasso-2.71828\AndroidManifest.xml:11:13-37
+53        <provider
+53-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\abajl\.gradle\caches\transforms-2\files-2.1\6fbf654d3db04d7d9e48eb73ccf59f45\lifecycle-process-2.0.0\AndroidManifest.xml:23:9-27:43
+54            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+54-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\abajl\.gradle\caches\transforms-2\files-2.1\6fbf654d3db04d7d9e48eb73ccf59f45\lifecycle-process-2.0.0\AndroidManifest.xml:24:13-79
+55            android:authorities="Automobili.Bajlo.lifecycle-process"
+55-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\abajl\.gradle\caches\transforms-2\files-2.1\6fbf654d3db04d7d9e48eb73ccf59f45\lifecycle-process-2.0.0\AndroidManifest.xml:25:13-69
+56            android:exported="false"
+56-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\abajl\.gradle\caches\transforms-2\files-2.1\6fbf654d3db04d7d9e48eb73ccf59f45\lifecycle-process-2.0.0\AndroidManifest.xml:26:13-37
+57            android:multiprocess="true" />
+57-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\abajl\.gradle\caches\transforms-2\files-2.1\6fbf654d3db04d7d9e48eb73ccf59f45\lifecycle-process-2.0.0\AndroidManifest.xml:27:13-40
+58    </application>
+59
+60</manifest>

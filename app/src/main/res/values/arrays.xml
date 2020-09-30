@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources> <string-array name="vrsta_automobila">
+    <item>Karavan</item>
+    <item>Hatchback</item>
+    <item>Limuzina</item>
+    <item>Kupe</item>
+    <item>Kabriolet</item>
+    <item>Monovolumen</item>
+    <item>Džip</item>
+    <item>Pickup</item>
+</string-array></resources>

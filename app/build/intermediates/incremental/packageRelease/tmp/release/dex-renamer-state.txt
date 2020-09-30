@@ -1,0 +1,4 @@
+#Wed Sep 30 19:23:08 CEST 2020
+base.0=C\:\\Users\\abajl\\AndroidStudioProjects\\ProjektniZadatak2AntonioBajlo\\app\\build\\intermediates\\dex\\release\\mergeDexRelease\\out\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
