@@ -64,8 +64,8 @@
 37-->C:\Users\abajl\AndroidStudioProjects\ProjektniZadatak2AntonioBajlo\app\src\main\AndroidManifest.xml:28:9-38:20
 38            android:name="androidx.core.content.FileProvider"
 38-->C:\Users\abajl\AndroidStudioProjects\ProjektniZadatak2AntonioBajlo\app\src\main\AndroidManifest.xml:29:13-62
-39            android:authorities="com.abajlo.provider"
-39-->C:\Users\abajl\AndroidStudioProjects\ProjektniZadatak2AntonioBajlo\app\src\main\AndroidManifest.xml:30:13-54
+39            android:authorities="com.abajlo.abajlo.provider"
+39-->C:\Users\abajl\AndroidStudioProjects\ProjektniZadatak2AntonioBajlo\app\src\main\AndroidManifest.xml:30:13-61
 40            android:exported="false"
 40-->C:\Users\abajl\AndroidStudioProjects\ProjektniZadatak2AntonioBajlo\app\src\main\AndroidManifest.xml:31:13-37
 41            android:grantUriPermissions="true" >

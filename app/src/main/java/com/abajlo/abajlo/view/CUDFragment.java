@@ -178,7 +178,7 @@ public class CUDFragment extends Fragment {
             return;
         }
 
-        Uri slikaURI = FileProvider.getUriForFile(getActivity(),"com.abajlo.provider", slika);
+        Uri slikaURI = FileProvider.getUriForFile(getActivity(),"com.abajlo.abajlo.provider", slika);
         takePictureIntent.putExtra(MediaStore.EXTRA_OUTPUT, slikaURI);
         startActivityForResult(takePictureIntent, SLIKANJE);
 

@@ -36,7 +36,7 @@
 
         <provider
             android:name="androidx.core.content.FileProvider"
-            android:authorities="com.abajlo.provider"
+            android:authorities="com.abajlo.abajlo.provider"
             android:exported="false"
             android:grantUriPermissions="true" >
             <meta-data
